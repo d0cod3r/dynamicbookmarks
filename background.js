@@ -4,7 +4,7 @@
 
 // The indicator at the start of a bookmark URL that indicates this bookmark
 // should be updated.
-let URL_INDICATOR = "dynbookmark"
+let URL_INDICATOR = "dynbookmark";
 
 // List of tabs to dynamically update. For each tab ID as a key, a list of
 // bookmark IDs is saved.
@@ -47,5 +47,3 @@ function onTabUpdated(tabid, changeinfo, tab) {
 
 browser.webNavigation.onBeforeNavigate.addListener(onBeforeNavigate);
 browser.tabs.onUpdated.addListener(onTabUpdated);
-
-console.log("Addon done");

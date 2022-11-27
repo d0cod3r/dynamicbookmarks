@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dynamic Bookmarks",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Bookmarks that update when you open them and then move to a different page. Ideal for reading longer texts that are spread over multiple pages, e.g. longer tutorials or webcomics.",
   "permissions": [
     "webNavigation",
